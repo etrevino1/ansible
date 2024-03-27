@@ -4,4 +4,4 @@
     tasks:
     - name: print msg
       ansible.builtin.debug:
-        msg: Hello E&A Team
+        msg: Hello "{{ team_var }}"
