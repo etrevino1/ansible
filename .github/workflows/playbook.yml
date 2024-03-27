@@ -1,7 +1,0 @@
----
-- name: demo playbook
-  hosts: localhost
-  tasks:
-  - name: hello
-    ansible.builtin.debug:
-      msg: Hello team!
