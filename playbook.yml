@@ -1,6 +1,6 @@
 ---
   - name: playbook
-    hosts: {{ hosts_var }}
+    hosts: "{{ hosts_var }}"
     tasks:
     - name: print msg
       ansible.builtin.debug:
