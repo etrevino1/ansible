@@ -1,6 +1,6 @@
 ---
   - name: playbook
-    hosts: localhost
+    hosts: {{ hosts_var }}
     tasks:
     - name: print msg
       ansible.builtin.debug:
