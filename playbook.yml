@@ -2,6 +2,9 @@
   - name: playbook
     hosts: "{{ hosts_var }}"
     tasks:
-    - name: print msg
+    - name: print hello msg
       ansible.builtin.debug:
         msg: Hello {{ team_var }}
+    - name: print bye msg
+      ansible.builtin.debug:
+        msg: See you {{ team_var }}
